@@ -82,10 +82,12 @@ h3 {
 	line-height: 64px;
 }
 
-.units {
+.unit {
 	position: relative;
 	font-size: 16px;
-	margin-top: 10px;
+	top: -20px;
+	margin-left: 2px;
+	text-decoration: none;
 }
 
 #current-icon {
@@ -95,7 +97,6 @@ h3 {
 
 a#celsius-link,
 a#fahrenheit-link {
-	color: #fff;
 	text-decoration: none;
 }
 
