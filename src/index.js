@@ -23,7 +23,7 @@ root.render(
 				</a>{" "}
 				and{" "}
 				<a
-					href="https://my-weather-app-green.vercel.app/"
+					href="https://my-app-three-orcin.vercel.app/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
