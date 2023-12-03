@@ -3,6 +3,7 @@ import axios from "axios";
 import ReactLoading from "react-loading";
 
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "./App.css";
 
 export default function App(props) {
@@ -119,6 +120,7 @@ export default function App(props) {
 					<br />
 					<WeatherInfo data={weatherData} />
 					<h3>Next 5 Days</h3>
+					<WeatherForecast />
 				</div>
 			</div>
 		);

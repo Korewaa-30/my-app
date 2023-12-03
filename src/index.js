@@ -19,7 +19,7 @@ root.render(
 					target="_blank"
 					rel="noreferrer"
 				>
-					open-sourced
+					open-sourced on Github
 				</a>{" "}
 				and{" "}
 				<a
