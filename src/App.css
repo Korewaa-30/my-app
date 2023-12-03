@@ -113,9 +113,17 @@ a#fahrenheit-link {
 	text-align: center;
 }
 
+#min-temp {
+	margin-left: 3px;
+}
+
 @media (max-width: 480px) {
 	#forecast-icon {
 		max-width: 40px;
+	}
+
+	#forecast-temp {
+		font-size: 15px;
 	}
 
 	#min-temp {

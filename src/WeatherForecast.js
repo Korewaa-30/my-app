@@ -1,6 +1,18 @@
 import React from "react";
+import axios from "axios";
 
-export default function WeatherForecast() {
+export default function WeatherForecast(props) {
+	function handleResponse(response) {
+		console.log(response.data.daily);
+	}
+
+	let apiKey = "8942b6bt940fbcoac33ad8a55c33f639";
+	let longitude = props.coordinates.longitude;
+	let latitude = props.coordinates.latitude;
+	let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=metric`;
+
+	axios.get(apiUrl).then(handleResponse);
+
 	return (
 		<div className="weather-forecast">
 			<div className="row">
@@ -10,7 +22,7 @@ export default function WeatherForecast() {
 					<img
 						src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
 						alt="icon"
-						width="70px"
+						width="60px"
 						id="forecast-icon"
 					/>
 					<div id="forecast-temp">

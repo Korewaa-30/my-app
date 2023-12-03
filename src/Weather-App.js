@@ -120,7 +120,7 @@ export default function App(props) {
 					<br />
 					<WeatherInfo data={weatherData} />
 					<h3>Next 5 Days</h3>
-					<WeatherForecast />
+					<WeatherForecast coordinates={weatherData.coordinates} />
 				</div>
 			</div>
 		);
