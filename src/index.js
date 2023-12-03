@@ -15,7 +15,7 @@ root.render(
 			<p className="hub">
 				This project was coded by Sarah Duker, and is{" "}
 				<a
-					href="https://github.com/Korewaa-30/my-weather-app"
+					href="https://github.com/Korewaa-30/my-app"
 					target="_blank"
 					rel="noreferrer"
 				>

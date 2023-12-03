@@ -11,7 +11,6 @@ export default function App(props) {
 	let [weatherData, changeWeatherData] = useState({ refreshed: false });
 
 	function currentWeather(response) {
-		console.log(response.data);
 		changeWeatherData({
 			refreshed: true,
 			city: response.data.city,
